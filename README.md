@@ -1,6 +1,6 @@
 ## WORK IN PROGRESS
-# @@@package_name
-@@@package_description
+# pippopackage
+er
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -13,7 +13,7 @@
 Table of Contents
 =================
 
-  * [@@@package_name](#@@@package_name)
+  * [pippopackage](#pippopackage)
   * [Table of Contents](#table-of-contents)
   * [Prerequisites](#prerequisites)
   * [Install](#install)
@@ -36,7 +36,7 @@ Table of Contents
 This package can be installed through Composer.
 
 ``` bash
-composer require @@@vendor/@@@package_name
+composer require padosoft/pippopackage
 ```
 You must install this service provider.
 
@@ -44,16 +44,16 @@ You must install this service provider.
 // config/app.php
 'provider' => [
     ...
-    @@@namespacevendor\@@@namespacepackage_name\@@@providerpackage_nameServiceProvider::class,
+    Padosoft\Pippopackage\PippopackageServiceProvider::class,
     ...
 ];
 ```
 
 You can publish the config file of this package with this command:
 ``` bash
-php artisan vendor:publish --provider="@@@namespacevendor\@@@namespacepackage_name\@@@providerpackage_nameServiceProvider"
+php artisan vendor:publish --provider="Padosoft\Pippopackage\PippopackageServiceProvider"
 ```
-The following config file will be published in `config/@@@package_name.php`
+The following config file will be published in `config/pippopackage.php`
 ``` php
 [
 
@@ -81,7 +81,7 @@ If you discover any security related issues, please email  instead of using the 
 
 # API Documentation
 
-Please see API documentation at http://@@@organization.github.io/@@@package_name
+Please see API documentation at http://b2msrl.github.io/pippopackage
 
 # Credits
 
@@ -96,18 +96,18 @@ Padosoft is a software house based in Florence, Italy. Specialized in E-commerce
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
 
-[ico-version]: https://img.shields.io/packagist/v/@@@vendor/@@@package_name.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/padosoft/pippopackage.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/@@@vendor/@@@package_name/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/@@@vendor/@@@package_name.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/@@@vendor/@@@package_name.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/@@@vendor/@@@package_name.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/padosoft/pippopackage/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/padosoft/pippopackage.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/padosoft/pippopackage.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/padosoft/pippopackage.svg?style=flat-square
 [ico-sensiolab]: https://insight.sensiolabs.com/projects/@@@sensiolab/small.png
 
-[link-packagist]: https://packagist.org/packages/@@@vendor/@@@package_name
-[link-travis]: https://travis-ci.org/@@@vendor/@@@package_name
-[link-scrutinizer]: https://scrutinizer-ci.com/g/@@@vendor/@@@package_name/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/@@@vendor/@@@package_name
-[link-downloads]: https://packagist.org/packages/@@@vendor/@@@package_name
+[link-packagist]: https://packagist.org/packages/padosoft/pippopackage
+[link-travis]: https://travis-ci.org/padosoft/pippopackage
+[link-scrutinizer]: https://scrutinizer-ci.com/g/padosoft/pippopackage/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/padosoft/pippopackage
+[link-downloads]: https://packagist.org/packages/padosoft/pippopackage
 // TODO : @@@sensiolabs
 [link-sensiolab]: https://insight.sensiolabs.com/projects/@@@sensiolabs
